@@ -1,0 +1,102 @@
+/bin/
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven target directory
+target/
+
+# Maven wrapper files (optional)
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse files
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+out/
+
+# VS Code files
+.vscode/
+
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Selenium generated reports
+test-output/
+surefire-reports/
+reports/
+allure-results/
+allure-report/
+
+# Screenshots generated during test execution
+screenshots/
+Screenshots/
+failed-tests-screenshots/
+
+# Extent Reports
+ExtentReports/
+extent-report/
+extent-reports/
+
+# Logs
+logs/
+*.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Environment files
+.env
+
+# WebDriver binaries (if downloaded locally)
+drivers/*.exe
+drivers/*.zip
+drivers/chromedriver*
+drivers/geckodriver*
+drivers/msedgedriver*
+
+# Test data generated during execution
+downloads/
+Downloads/
+
+# Dependency directories (if not using Maven)
+lib/
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
