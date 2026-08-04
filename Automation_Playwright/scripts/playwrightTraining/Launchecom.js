@@ -5,7 +5,6 @@ const {chromium} = require("playwright");
     const browser = await chromium.launch({headless : false});
     const page = await browser.newPage();
 
-
     await page.goto("http://localhost:5173/");
     await page.waitForTimeout(3000);
     console.log("Title : " + await page.title());
