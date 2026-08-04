@@ -15,25 +15,13 @@ const JSON_DATA_PATH = path.join(TEST_DATA_FOLDER, "testData.json");
 const REPORT_FILE = path.join(REPORT_FOLDER, "AutomationReport.html");
 
 // CUSTOM VIEWPORTS
-const DESKTOP_VIEWPORT = {
-  width: 1920,
-  height: 1080,
-};
+const DESKTOP_VIEWPORT = {width: 1920,height: 1080};
 
-const LAPTOP_VIEWPORT = {
-  width: 1366,
-  height: 768,
-};
+const LAPTOP_VIEWPORT = {width: 1366,height: 768};
 
-const TABLET_VIEWPORT = {
-  width: 768,
-  height: 1024,
-};
+const TABLET_VIEWPORT = { width: 768,height: 1024};
 
-const MOBILE_VIEWPORT = {
-  width: 390,
-  height: 844,
-};
+const MOBILE_VIEWPORT = {width: 390,height: 844};
 
 // CONSTANTS
 
