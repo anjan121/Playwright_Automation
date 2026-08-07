@@ -3,8 +3,7 @@ const AutomationConstants= require("../../generic/AutomationConstants");
 const Baseclass= require("../../generic/Baseclass");
 
 (async () => {
-    const base=new Baseclass() ;
-    const getpage=await base.openApplication();
+    const getpage=await Baseclass.openApplication();
     try
     {
         console.log("Tittle : " + await getpage.title());
@@ -16,7 +15,7 @@ const Baseclass= require("../../generic/Baseclass");
     }
     finally
     {
-        await base.closeApplication();
+        await Baseclass.closeApplication();
     }
 
 })();

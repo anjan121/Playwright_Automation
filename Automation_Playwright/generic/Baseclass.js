@@ -10,7 +10,7 @@ class Baseclass
         this.page=null;
     }
 
-    async openApplication()
+    static async openApplication()
     {
         try
         {
@@ -54,7 +54,7 @@ class Baseclass
         this.page = await this.context.newPage();
         // you navigate to your application by using the url and the page, variable name. ( you kept)
         await this.page.goto(AutomationConstants.APPLICATION_URL);
-        console.log("Appllication has beenlaunched.");
+        console.log("Appllication has been launched.");
         }
 
         catch(error)
@@ -65,7 +65,7 @@ class Baseclass
         return this.page;
     }
 
-    async closeApplication()
+    static async closeApplication()
     {
         try
         {
