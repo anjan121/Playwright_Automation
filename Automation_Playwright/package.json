@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "playwright": "^1.62.1"
+    "playwright": "^1.62.1",
+    "xlsx": "^0.18.5"
   },
   "name": "automation_playwright",
   "version": "1.0.0",

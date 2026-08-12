@@ -1,7 +1,7 @@
 const path = require("path");
 
 // PROJECT ROOT
-const PROJECT_ROOT = process.cwd();
+const PROJECT_ROOT =  path.resolve(__dirname, "..");
 
 // FOLDER PATHS
 const SCREENSHOT_FOLDER = path.join(PROJECT_ROOT, "screenshots");
