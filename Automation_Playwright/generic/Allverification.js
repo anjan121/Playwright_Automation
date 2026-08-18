@@ -1,4 +1,5 @@
 const {expect}=require("@playwright/test");
+const {captureScreenshot}=require("./ScreenShot");
 class Allverification
 {
     //Verify the Title of all Pages
@@ -12,8 +13,10 @@ class Allverification
         }
         catch(error)
         {
-            console.log(error);
+            await captureScreenshot(page,"Title_Missmatch");
+            console.log(error.message);
             console.log("Title verification failed");
+           
         }
     }
 

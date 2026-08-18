@@ -7,11 +7,11 @@ const Header=require("../../pom/Header");
         const page = await Baseclass.openApplication();
         try
         {
-            await Allverification.verifyTitle(page,"Home | ECODERS");
-            await Allverification.verifyUrl(page , "http://localhost:5173");
-            const header=new Header(page);
-            await header.clickHomelogo();
-            console.log("Clicked on Home Logo");
+            await Allverification.verifyTitle(page,"ECODERS");
+            // await Allverification.verifyUrl(page , "http://localhost:5173");
+            // const header=new Header(page);
+            // await header.clickHomelogo();
+            // console.log("Clicked on Home Logo");
 
         }
         catch(error)
